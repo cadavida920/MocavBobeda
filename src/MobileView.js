@@ -35,12 +35,12 @@ function MobileView() {
         navigation={true}
         modules={[Navigation]}
         spaceBetween={10}
-        slidesPerView={2}
+        slidesPerView={1}
         style={{ 
           marginBottom: 2,
           '--swiper-navigation-color': '#000',
           '--swiper-navigation-size': '25px',
-          '__swiper-navigation-sides-offset': 'º42px'
+          '__swiper-navigation-sides-offset': '42px'
         }}
 
       >
@@ -60,7 +60,7 @@ function MobileView() {
               alt={`Imagen ${index + 1}`}
               style={{ 
                 cursor: 'pointer',
-                width: '60vw',
+                width: '100%',
                 height: '100%',
                 objectFit: 'contain'
               }}
