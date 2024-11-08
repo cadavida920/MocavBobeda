@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextField, IconButton, Box, Card, CardContent, Typography } from '@mui/material';
+import { TextField, IconButton, Box, Card, Typography } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';

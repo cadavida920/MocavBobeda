@@ -33,7 +33,7 @@ const ProductList = () => {
     // ... más productos
   ];
 
-  const [products, setProducts] = React.useState(initialProducts);
+  const products = React.useState(initialProducts);
 
   const [open, setOpen] = React.useState(false);
   const [newProduct, setNewProduct] = React.useState({

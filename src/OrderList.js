@@ -46,10 +46,6 @@ function OrderList() {
     return status === 'completado' ? 'success' : 'warning';
   };
 
-  const calculateTotal = (products) => {
-    return products.reduce((sum, product) => sum + (product.price * product.quantity), 0);
-  };
-
   return (
     <Box sx={{ p: 3 }}>
       <Typography variant="h6" sx={{ mb: 3 }}>
