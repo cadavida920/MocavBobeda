@@ -1,0 +1,36 @@
+.card-hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.rounded-corners {
+  border-radius: 8px;
+}
+
+.primary-button {
+  background-color: #2196f3 !important;
+  border-radius: 8px !important;
+}
+
+.primary-button:hover {
+  background-color: #1976d2 !important;
+}
+
+.chip-tag {
+  margin-right: 8px !important;
+  background-color: #e3f2fd !important;
+}
+
+.modal-content {
+  padding: 24px;
+}
+
+.form-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+} 
